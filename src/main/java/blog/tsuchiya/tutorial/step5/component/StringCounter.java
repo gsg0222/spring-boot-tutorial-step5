@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * ComponentとしてSpring Bootに登録するクラス。
- * 存在意義はないけど、勉強用に必要なので作成。
+ * DI対象のクラスに更にDIできることを示すためだけに作成。
  */
 @Component
 public class StringCounter {
