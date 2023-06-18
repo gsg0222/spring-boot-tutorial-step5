@@ -34,7 +34,7 @@ public class MainController {
 	@Qualifier("mainServiceImpl2")
 	private MainService service2;
 	
-	@GetMapping
+	@GetMapping("/")
 	public String index(Model model) {
 		model.addAttribute("value1", this.service1.decorate(TEXT));
 		model.addAttribute("value2", this.service2.decorate(TEXT));
